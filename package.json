@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "National Park Bucket List maker",
   "main": "server.js",
+  "engines": {
+    "node": "*"
+    },
+
   "scripts": {
        "start": "node server.js"
   },
