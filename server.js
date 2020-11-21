@@ -30,6 +30,10 @@ app.use(express.json());
 var routes = require("./controllers/bucketListController.js");
 app.use(routes);
 
+app.get('/', function(req, res){
+    res.redirect('/explore');
+ });
+
 app.listen(app.get('port'), function(){
     console.log('Server started on port '+app.get('port'))
 });
