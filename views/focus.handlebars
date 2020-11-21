@@ -26,11 +26,13 @@
 
             <div class="col-sm-3 bg-light">
                 <h5 class="pt-1" id = activitiesHed></h5>
+                <p  style='font-size:80%' >(click to add)</p>
                 <!--Here we create the list of activities at the park-->
                
                 <ul id='activityID'; style='padding-left: 20px'> </ul>
 
                 <h5 class="pt-1" id = topicsHed></h5>
+                <p  style='font-size:80%' >(click to add)</p>
                 <!--Here we create the list of topics at the park-->
                 <ul id='topicID' style='padding-left: 20px'></ul>
 
@@ -203,7 +205,7 @@ let bucketItem =
 console.log(document.querySelector('input[name="gridRadios"]:checked').text)
 
 
-console.log(focusResults);
+{{!-- console.log(focusResults); --}}
 
           $.ajax({
           url: '/api/trips',
