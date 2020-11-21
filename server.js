@@ -8,7 +8,7 @@ const path = require('path');
 const exphbs = require('express-handlebars')
 
 app.use(express.static("public"));
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 // app.set('port', (process.env.PORT || 8000));
 app.set('views', path.join(__dirname, 'views'));
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
