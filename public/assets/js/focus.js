@@ -112,6 +112,8 @@ $(".topic").on("click", function(){
         $('#caption2').append(acadia.data[0].images[1].caption);
         $('#photo2').attr("src", acadia.data[0].images[1].url);
         $('#photoCredit2').append(acadia.data[0].images[1].credit);
+ 
+      if (acadia.data[0].images.length > 2){
 
         $('#photoTitle3').append(acadia.data[0].images[2].title);
         $('#caption3').append(acadia.data[0].images[2].caption);
@@ -122,7 +124,7 @@ $(".topic").on("click", function(){
         $('#caption4').append(acadia.data[0].images[3].caption);
         $('#photo4').attr("src", acadia.data[0].images[3].url);
         $('#photoCredit4').append(acadia.data[0].images[3].credit);
-
+      }
     }
 
 // tiny-slider carousel
