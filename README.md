@@ -1,4 +1,4 @@
-# Application: 'Bucket List' National Parks App, v2
+# Application: 'Bucket List' National Parks App
 
 ## Developer: The ParkPlace team: Sandra Ayika, Doug Davidoff, and Frank Salvo
 
