@@ -88,7 +88,7 @@ $(".topic").on("click", function(){
     $('#location').append("Location: " + acadia.data[0].addresses[0].city +", " + acadia.data[0].addresses[0].stateCode);
     }
     $('#description').append("Description: " + acadia.data[0].description);
-    $('#website').append("Website: <a href>" + acadia.data[0].url + "</a>");
+    $('#website').append("Website: <a href='" + acadia.data[0].url + "'>" + acadia.data[0].url + "</a>");
     $('#phoneNumber').append("Telephone " + acadia.data[0].contacts.phoneNumbers[0].phoneNumber);
     $('#parkEmail').append("Park Email: " + acadia.data[0].contacts.emailAddresses[0].emailAddress);
     let shortName = acadia.data[0].name;
